@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="username"
+        >username:
+        <input
+          type="text"
+          name="username"
+          placeholder="Give your username"
+          required /></label
+      ><br />
+      <label
+        >Quantity :
+        <input
+          type="number"
+          start="1"
+          min="1"
+          max="100"
+          step="1"
+          value="1" /></label
+      ><br />
+      <label
+        >Email:
+        <input type="email" placeholder="name@srmrrmp.edu" required /></label
+      ><br />
+      <label
+        >Password:
+        <input
+          type="password"
+          placeholder="enter your password"
+          required /></label
+      ><br />
+      <label
+        >Course: <br />
+        <input type="checkbox" />React JS<br />
+        <input type="checkbox" />Mongo DB </label
+      ><br />
+      <label
+        >Gender:<br />
+        <input type="radio" name="gender" value="Male" />Male<br />
+        <input type="radio" name="gender" value="Female" />Female </label
+      ><br />
+      <label>BirthDay Date: <input type="date" /><br /> </label>
+      <label>Upload: <input type="file" /></label><br />
+      <input type="reset" name="reset" />
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
